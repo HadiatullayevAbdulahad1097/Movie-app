@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.10041966426858513" />
+        <entry key="app/src/main/res/drawable/ic_text.xml" value="0.15423126220703126" />
+        <entry key="app/src/main/res/drawable/ic_text2.xml" value="0.1675" />
+        <entry key="app/src/main/res/layout-v28/fragment_splash.xml" value="0.20535736083984377" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2769943237304688" />
+        <entry key="app/src/main/res/layout/fragment_add.xml" value="0.3181966145833333" />
+        <entry key="app/src/main/res/layout/fragment_edit.xml" value="0.27907155354817703" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3880208333333333" />
+        <entry key="app/src/main/res/layout/fragment_movies.xml" value="0.2725591023763021" />
+        <entry key="app/src/main/res/layout/fragment_show.xml" value="0.2420445760091145" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.3253677368164063" />
+        <entry key="app/src/main/res/layout/item_movie.xml" value="0.2574025472005208" />
+        <entry key="app/src/main/res/layout/screen_spalsh.xml" value="0.30110982259114577" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

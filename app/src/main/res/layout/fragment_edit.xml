@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C1"
+    tools:context=".EditFragment">
+
+
+    <LinearLayout
+        android:id="@+id/action_bar_edit"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#66D6EF"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toTopOf="@id/cons_edt_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:text="Edit Movies"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cons_edt_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/action_bar_edit">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/ic_text2"
+            android:gravity="start"
+            android:padding="@dimen/_15sdp"
+            android:text="Movie name"
+            app:layout_constraintBottom_toTopOf="@id/edt_authors"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edt_authors"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/ic_text2"
+            android:gravity="start"
+            android:padding="@dimen/_15sdp"
+            android:text="Movie Authors"
+            app:layout_constraintBottom_toTopOf="@id/edt_about"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edt_name" />
+
+        <EditText
+            android:id="@+id/edt_date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/ic_text2"
+            android:gravity="start"
+            android:inputType="date"
+            android:padding="@dimen/_15sdp"
+            android:text="Movie Date"
+            app:layout_constraintBottom_toTopOf="@id/btn_save"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edt_about" />
+
+        <EditText
+            android:id="@+id/edt_about"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/ic_text2"
+            android:gravity="start"
+            android:padding="@dimen/_15sdp"
+            android:text="Movie Abbout"
+            app:layout_constraintBottom_toTopOf="@id/edt_date"
+            app:layout_constraintHeight_percent="0.33"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edt_authors" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:backgroundTint="#66D6EF"
+            android:text="Save"
+            android:textSize="@dimen/_13sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
